@@ -3,8 +3,6 @@ body {
     color: #434455;
     background-color: #FFF;
     width: 1440px;
-    justify-content: center;
-    
 }
 
 h1,h2,h3,p {
@@ -64,7 +62,6 @@ ul {
 
 .contact {
     font-style: normal;
-    /* justify-content: flex-end; */
 }
 .contact-list {
     display: flex;
@@ -176,7 +173,7 @@ ul {
     gap: 24px;
     margin-top: 72px;
     margin-left: 156px;
-    
+    margin-right: 156px;
 }
 
 .title {
@@ -213,10 +210,10 @@ ul {
 
 .list-portfolio {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
-    width: calc((100% - 48px) / 3);
-    max-width: 360px;
-    height: 420px;
     gap: 24px;
     padding-bottom: 32px;
 }
@@ -226,7 +223,7 @@ ul {
     background: #FFF;
     height: 420px;
     width: 360px;
-    padding-bottom: 32px;
+    margin-bottom: 48px;
 }
 
 .list-title-portfolio {

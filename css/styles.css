@@ -19,9 +19,10 @@ img {
 }
 
 .container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 1158px;
+    margin: 0 auto;
 }
 
 .menu {
@@ -115,8 +116,6 @@ ul {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-    padding-right: 472px;
-    padding-left: 472px;
     justify-content: center;
 }
 
@@ -159,6 +158,10 @@ ul {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+ .visually-hidden {
+    position: fixed;
+    transform: scale(0);
+ }
 
 .list-about-us {
     display: flex;
@@ -170,7 +173,6 @@ ul {
 }
 
 .list-box {
-    height: 104px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -227,6 +229,7 @@ ul {
     padding-bottom: 32px;
 }
 
+
 .team-title-text-box {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -258,8 +261,7 @@ ul {
 
 .box-portfolio {
     background: #FFF;
-    height: 420px;
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     
 }
 
@@ -270,6 +272,9 @@ ul {
     margin-bottom: 8px;
 }
 
+.list-title-portfolio {
+    margin-bottom: 8px;
+}
 
 .bottom {
     background-color: #2E2F42;

@@ -39,6 +39,7 @@ img {
 .navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .navigation-list {
     display: flex;
@@ -58,7 +59,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 156px;
     margin-right: 76px;
     margin-top: 25.5px;
     margin-bottom: 25.5px;
@@ -92,7 +92,7 @@ img {
     gap: 40px;
     margin-top: 24px;
     margin-bottom: 24px;
-    margin-right: 156px;
+    
 }
 
 .link-contact {
@@ -117,16 +117,19 @@ ul {
     padding-top: 188px;
     padding-bottom: 188px;
     justify-content: center;
+
 }
 
 .hero-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     color: #FFF;
     font-size: 56px;
     font-weight: 700;
     max-width: 496px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 
 .hero-button {
@@ -147,7 +150,8 @@ ul {
     padding-right: 32px;
     padding-left: 32px;
     padding-bottom: 16px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -160,11 +164,14 @@ ul {
 }
  .visually-hidden {
     position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
+    width: 1;   
     height: 1px;
-    width: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
  }
 

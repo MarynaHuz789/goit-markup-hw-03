@@ -177,14 +177,28 @@ ul {
 
 .list-about-us {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 24px;
 }
 
 .list-box {
     width: calc((100% - 72px) / 4);
     
+}
+
+.list-title-about-us {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.text-about-us {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .list-title {
@@ -215,7 +229,8 @@ ul {
     margin-top: 72px;
 }
 
-.title {
+/* h2 */
+.title { 
     color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
@@ -248,7 +263,7 @@ ul {
    margin-bottom: 8px;
 }
 
-.text {
+.text-team {
     text-align: center;
 }
 
@@ -281,6 +296,11 @@ ul {
 }
 
 .list-title-portfolio {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
 
